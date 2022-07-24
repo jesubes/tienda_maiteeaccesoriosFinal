@@ -1,0 +1,27 @@
+/* 1ra parte inicio*/
+.inicio{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(../img/web2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inicio .content{
+    max-width: 900px;
+    text-align: center;
+}
+.content h1 {
+    text-shadow: 1px 5px 10px rgba($color: $grisOscuro, $alpha: .7);
+    font-size: 5em;
+    color: $cyanCeleste;
+}
+.inicio .content p{
+    font-size: 1em;
+    color: #fff;
+}

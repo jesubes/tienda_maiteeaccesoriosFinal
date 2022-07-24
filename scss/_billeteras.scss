@@ -1,0 +1,36 @@
+/* SECCION EXPERT */
+.seccionFoto .title{
+    margin-top: 25px;
+}
+.seccionFoto .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.seccionFoto .content .box{
+    width: 300px;
+    margin: 15px;
+}
+.seccionFoto .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+.seccionFoto .content .box .imgBx img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.seccionFoto .content .box .text{
+    padding: 15px 0 5px 15px;
+}
+.seccionFoto .content .box .text p{
+    font-weight: 700;
+    color: #444444;
+}

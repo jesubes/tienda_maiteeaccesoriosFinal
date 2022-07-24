@@ -1,0 +1,66 @@
+/* MEDIDA QUERI */
+@media(max-width:961px){
+    header,.sticky{
+        padding: 10px 20px;
+    }
+    header .navbar{
+        display: none;
+    }
+    header .navbar.active{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+    }
+    header .navbar li{
+        margin-left: 0;
+        padding: 2px;
+    }
+    header .navbar li a{
+        text-decoration: none;
+        color: #111;
+        font-size: 1.7em;
+        font-weight: 700;
+    }
+    section {
+        padding: 30px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .banner .content h2 {
+        font-size: 3em;
+    }
+    .row .col50 {
+        width: 100%;
+    }
+    .row .col50 .imgBx {
+        height: 300px;
+        margin-top: 20px;
+    }
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(../img/menu.png);
+        background-size:30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .menuToggle.active{
+        background: url(../img/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .sticky .menuToggle{
+        filter: invert(1);
+    }
+}

@@ -1,0 +1,51 @@
+/* HEADER */
+.sticky{
+    background: #fff;
+    padding: 10px 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+
+}
+header .logo{
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+header .logo img{
+    margin-right: 1rem;
+    display: block;
+    width: 6rem;
+    height:6rem;
+    border-radius: 50%;
+}
+.sticky .logo{
+    color: #111;
+}
+header .navbar{
+    position: relative;
+    display: flex;
+}
+header .navbar li{
+    list-style: none;
+    margin-left:30px;
+}
+header .navbar li a{
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.sticky .navbar li a{
+    color: #111;
+}
+header .navbar li a:hover{
+    color: $naranjaClaro;
+    text-shadow: 1px 2px 5px rgba($color: white, $alpha: .9);
+    letter-spacing: 1px;
+    transition: .3s;
+}

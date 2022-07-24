@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .4s;
+}
+section{
+    padding: 100px;
+}
+//boton para todas las secciones
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: $naranjaClaro;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration:none;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.btn:hover{
+    letter-spacing: 5px;
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+/* SECCCION MENU */
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title p{
+    font-size: 1.6rem;
+}
+.mochilas .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.mochilas .content .box{
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.mochilas .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.mochilas .content .box .imgBx img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mochilas .content .box .text{
+    padding: 15px 0 5px 15px;
+}
+.mochilas .content .box .text p{
+    font-weight: 700;
+    color: #444444;
+}

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tipografia Google || Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
     <!-- tipografia Google || josefin Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,21 +20,21 @@
     <!-- CABECERA -->
     <header>
         <!-- NAVBAR -->
-        <a href="#" class="logo">MAITEE ACCESORIOS<span></span></a>
+        <a href="#" class="logo"><img src="./img/logoMaitee2.png" alt=""> Maitee Accesorios</a>
         <div class="menuToggle" onclick="toggleMenu();"></div>
         <ul class="navbar">
             <li><a href="#inicio" onclick="toggleMenu();">INICIO</a></li>
             <li><a href="#nosotros" onclick="toggleMenu();">NOSOTROS</a></li>
             <li><a href="#mochilas" onclick="toggleMenu();">MOCHILAS</a></li>
-            <li><a href="#billeteras" onclick="toggleMenu();">BILLETERAS</a></li>
-            <li><a href="#morrales" onclick="toggleMenu();">MORRALES</a></li>
+            <li><a href="#seccionFoto" onclick="toggleMenu();">PROD. FOTOGRAFICA</a></li>
+            <li><a href="#clientes" onclick="toggleMenu();">CLIENTES</a></li>
             <li><a href="#contacto" onclick="toggleMenu();">CONTACTO</a></li>
         </ul>
     </header>
     <!-- BANNER -->
     <section class="inicio" id="inicio">
         <div class="content">
-            <h1>Always Choose Good</h1>
+            <h1>Marroquineria Para La Mujer</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos molestias cumque nemo quia officiis accusantium impedit? Velit quisquam aliquid iusto placeat alias autem quis soluta. Vitae culpa repudiandae alias.</p>
             <a href="#" class="btn">Our Menu</a>
         </div>
@@ -39,7 +43,7 @@
     <section class="nosotros">
         <div class="row" id="nosotros">
             <div class="col50">
-                <h2 class="tituloFoto"><span>A</span>bout Us</h2>
+                <h2 class="tituloFoto"><span>N</span>nosotros</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus animi hic at deleniti voluptatum, eaque ab voluptas temporibus labore voluptatem, illum sit illo saepe eius distinctio libero inventore in iste!<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis similique aspernatur architecto ipsam tenetur obcaecati, veniam at ut modi, rem vero dicta assumenda explicabo aliquid ratione atque a laborum.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perferendis similique aspernatur architecto ipsam tenetur obcaecati, veniam at ut modi, rem vero dicta assumenda explicabo aliquid ratione atque a laborum. </p>
             </div>
             <div class="col50">
@@ -52,117 +56,135 @@
     <!-- MENU -->
     <section class="mochilas" id="mochilas">
         <div class="title">
-            <h2 class="tituloFoto">Our <span>M</span>enu</h2>
+            <h2 class="tituloFoto"><span>M</span>ochilas</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
-            <!-- MENU 1 -->
+            <!-- Producto 1 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu1.jpg" alt="">
+                    <img src="./img/mochilaBlackCamel.jpg" alt="mochila Chimola top juvenil">
                 </div>
                 <div class="text">
-                    <h3>Special Salads</h3>
+                    <p>Mochila Chimola Black Camel</p>
                 </div>
             </div>
-            <!-- MENU 2 -->
+            <!-- Producto 2 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu2.jpg" alt="">
+                    <img src="./img/mochilaBlackWhite.jpg" alt="mochila Chimola negra lengua juvenil">
                 </div>
                 <div class="text">
-                    <h3>Special Soup</h3>
+                    <p>Mochila Chimola Black White</p>
                 </div>
             </div>
-            <!-- MENU 3 -->
+            <!-- Producto 3 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu3.jpg" alt="">
+                    <img src="./img/mochilaInfluencer.jpg" alt="mochila Influencer rosa escolar">
                 </div>
                 <div class="text">
-                    <h3>Special Pasta</h3>
+                    <p>Mochila INFLUENCER Rosa</p>
                 </div>
             </div>
-            <!-- MENU 4 -->
+            <!-- Producto 4 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu4.jpg" alt="">
+                    <img src="./img/mochilaNegraAmayra.jpg" alt="mochila Amayra negra formal">
                 </div>
                 <div class="text">
-                    <h3>Special Salads</h3>
+                    <p>Mochila Amayra Negra</p>
                 </div>
             </div>
-            <!-- MENU 5 -->
+            <!-- Producto 5 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu5.jpg" alt="">
+                    <img src="./img/mochilaNino.jpg" alt="mochilas para niña lentejuelas">
                 </div>
                 <div class="text">
-                    <h3>Special Soup</h3>
+                    <p>Mochila LSD niña lentejuelas</p>
                 </div>
             </div>
-            <!-- MENU 6 -->
+            <!-- Producto 6 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/menu6.jpg" alt="">
+                    <img src="./img/mochilaRoja.jpg" alt="Mochila Chimola Roja estampado">
                 </div>
                 <div class="text">
-                    <h3>Special Pasta</h3>
+                    <p>Mochila Chimola Roja estampada</p>
                 </div>
             </div>
         </div>
         <div class="title">
-            <a href="#" class="btn">View All</a>
+            <a href="#" class="btn">VER TODAS</a>
 
         </div>
     </section>
     <!-- SECCION BILLETERAS -->
-    <section class="billeteras" id="billeteras">
+    <section class="seccionFoto" id="seccionFoto">
         <div class="title">
-            <h2 class="tituloFoto">Our Kitchen <span>E</span>xpert</h2>
+            <h2 class="tituloFoto">Produccción <span>F</span>otografica</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
-            <!-- EXPERT 1 -->
+            <!-- modelo 1 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/expert1.jpg" alt="">
+                    <img src="./img/modelo1.jpg" alt="modelo mochila salidas">
                 </div>
                 <div class="text">
-                    <h3>Someone Famous</h3>
+                    <p>Producción Fotografica</p>
                 </div>
             </div>
-            <!-- EXPERT 2 -->
+            <!-- Modelo 2-->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/expert2.jpg" alt="">
+                    <img src="./img/modelo2.jpg" alt="">
                 </div>
                 <div class="text">
-                    <h3>Someone Famous</h3>
+                    <p>Producción Fotografica</p>
                 </div>
             </div>
-            <!-- EXPERT 3 -->
+            <!-- modelo 3 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/expert3.jpg" alt="">
+                    <img src="./img/modelo3.jpg" alt="">
                 </div>
                 <div class="text">
-                    <h3>Someone Famous</h3>
+                    <p>Producción Fotografica</p>
                 </div>
             </div>
-            <!-- EXPERT 4 -->
+            <!-- Modelo 4 -->
             <div class="box">
                 <div class="imgBx">
-                    <img src="./img/expert4.jpg" alt="">
+                    <img src="./img/modelo4.jpg" alt="">
                 </div>
                 <div class="text">
-                    <h3>Someone Famous</h3>
+                    <p>Producción Fotografica</p>
+                </div>
+            </div>
+            <!-- modelo 5 -->
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./img/modelo5.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Producción Fotografica</p>
+                </div>
+            </div>
+            <!-- modelo 6 -->
+            <div class="box">
+                <div class="imgBx">
+                    <img src="./img/modelo6.jpg" alt="">
+                </div>
+                <div class="text">
+                    <p>Producción Fotografica</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- morrales -->
-    <section class="morrales" id="morrales">
+    <!-- clientes -->
+    <section class="clientes" id="clientes">
         <div class="title white">
             <h2 class="tituloFoto">They <span>S</span>aid About Us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
@@ -204,22 +226,22 @@
     <!-- CONTACTO -->
     <section class="contacto" id="contacto">
         <div class="title">
-            <h2 class="tituloFoto"><span>C</span>ontact Us</h2>
+            <h5 class="tituloFoto"><span>C</span>ontactanos</h5>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="contactForm">
-            <h3>Send Message</h3>
+            <h6>Dejanos tu Opinión</h6>
             <div class="inputBox">
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Nombre Completo">
             </div>
             <div class="inputBox">
                 <input type="text" placeholder="Email">
             </div>
             <div class="inputBox">
-                <textarea type="text" placeholder="Your message"></textarea>
+                <textarea type="text" placeholder="Escribe tu mensaje..."></textarea>
             </div>
             <div class="inputBox">
-                <input type="submit" value="Send">
+                <input type="submit" value="ENVIAR">
             </div>
         </div>
     </section>
