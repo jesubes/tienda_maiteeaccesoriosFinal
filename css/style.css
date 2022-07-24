@@ -203,7 +203,7 @@ header .navbar li a:hover {
   font-weight: 700;
   color: #444444; }
 
-/* SECCION EXPERT */
+/* SECCION foto */
 .seccionFoto .title {
   margin-top: 25px; }
 
@@ -239,22 +239,19 @@ header .navbar li a:hover {
   font-weight: 700;
   color: #444444; }
 
-/* SECCION TESTIMONIALS */
-.testimonials {
+/* SECCION clientes*/
+.clientes {
   background: url("../img/bg2.jpg");
   background-size: cover; }
 
-.white .tituloFoto, .white p {
-  color: #fff; }
-
-.testimonials .content {
+.clientes .content {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   margin-top: 40px; }
 
-.testimonials .content .box {
+.clientes .content .box {
   width: 340px;
   margin: 20px;
   padding: 40px;
@@ -265,7 +262,7 @@ header .navbar li a:hover {
   flex-direction: column;
   border-radius: 10px; }
 
-.testimonials .content .box .imgBx {
+.clientes .content .box .imgBx {
   position: relative;
   width: 80px;
   height: 80px;
@@ -274,7 +271,7 @@ header .navbar li a:hover {
   overflow: hidden;
   /*enconde el sobrante de la foto para que se pueda mostrar un cirulo de la foto*/ }
 
-.testimonials .content .box .imgBx img {
+.clientes .content .box .imgBx img {
   position: absolute;
   left: 0;
   top: 0;
@@ -282,7 +279,7 @@ header .navbar li a:hover {
   height: 100%;
   object-fit: cover; }
 
-.testimonials .content .box .text {
+.clientes .content .box .text {
   text-align: center; }
 
 .testimonials .content .box .text p {
@@ -290,7 +287,7 @@ header .navbar li a:hover {
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
-.testimonials .content .box .text h3 {
+.clientes .content .box .text h3 {
   margin-top: 20px;
   color: #111;
   font-size: 1.5rem;
@@ -382,7 +379,7 @@ header .navbar li a:hover {
     width: 100%;
     height: 100%;
     position: fixed;
-    top: 60px;
+    top: 110px;
     left: 0;
     display: flex;
     justify-content: center;
@@ -394,7 +391,8 @@ header .navbar li a:hover {
     padding: 2px; }
   header .navbar li a {
     text-decoration: none;
-    color: #111;
+    color: #05d1d1;
+    text-shadow: 0 10px 20px rgba(75, 75, 75, 0.8);
     font-size: 1.7em;
     font-weight: 700; }
   section {
